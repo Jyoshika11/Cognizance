@@ -1,0 +1,15 @@
+This program will print Nth fibonacci number
+
+Function main
+Declare integer n,first,second,temp,i
+     Assign first =1
+     Assign  Second=0
+print response
+  "enter the value of n which you want the value"
+	get Input 'n' from user
+ for i=1 to n with increasing by one in next iteration,next
+    Assign  temp = first + second
+    Assign  first = second
+    Assign  second = temp
+End For loop when the given condition is not satisfied 
+Display temp (the value of the corresponding n)
